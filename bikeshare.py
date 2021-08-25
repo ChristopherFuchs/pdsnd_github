@@ -18,6 +18,7 @@ def get_filters():
     (str) day - name of the day of week to filter by, or "all" to apply no day filter
     """
     
+    # Add Message to inform the customer for next steps.
     print('\nHello! Let\'s Explore Some US Bikeshare Data! First Please Select City, Seccondly Month And Then Day.')
 
     # Get user input for a city filter from the dataframe (chicago, new york city, washington).
