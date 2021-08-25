@@ -4,7 +4,7 @@ import numpy as np
 
 CITY_DATA = { 'chicago': 'chicago.csv', 'new york city': 'new_york_city.csv', 'washington': 'washington.csv' }
 
-#Define month and day lists.
+#Define month and day lists, with all included to choose.
 months = {'all', 'january', 'february', 'march' , 'april', 'may', 'june'}
 days = {'all', 'monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday'}
 
